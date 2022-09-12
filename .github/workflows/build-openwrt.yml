@@ -187,4 +187,5 @@ jobs:
         keep_latest: 3
         delete_tags: true
       env:
+        CONFIG_NODEJS_18: y
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
